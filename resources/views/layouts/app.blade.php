@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
 </head>
 <body>
     <div id="app">
@@ -97,7 +98,7 @@
                         
                         <div class="row justify-content-center text-center mt-3">
                             <div class="col-md-12">
-                                <p> Copyright © All rights reserved.</p>
+                                <p> Copyright © <a href="https://www.allphptricks.com/" style="text-decoration: none;">ALLPHPTRICKS.com</a></p>
                             </div>
                         </div>
 

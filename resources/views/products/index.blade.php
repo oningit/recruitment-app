@@ -43,7 +43,7 @@
                 @empty
                     <td colspan="4">
                         <span class="text-danger">
-                            <strong>No Product Found!</strong>
+                            <strong>No Job Found!</strong>
                         </span>
                     </td>
                 @endforelse
@@ -51,6 +51,7 @@
         </table>
 
         {{ $products->links() }}
+        
 
     </div>
 </div>
