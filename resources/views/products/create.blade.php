@@ -18,7 +18,7 @@
                 <form action="{{ route('products.store') }}" method="post">
                     @csrf
                     
-                    <input type="text" class="form-control" id="user_id" name="user_id" value="{{ $user }}">
+                    <input type="hidden" class="form-control" id="user_id" name="user_id" value="{{ $user }}">
                     <div class="mb-3 row">
                         <label for="name" class="col-md-4 col-form-label text-md-end text-start">Company Name</label>
                         <div class="col-md-6">
